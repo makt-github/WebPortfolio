@@ -1,21 +1,47 @@
 body{
-    background-image: url("Images/web-back.jpg") no-reapet top center;
-    border: 1px solid red;
-    height: 500px;
+    margin: 0px;
 }
 
-h1{
-    font-family: 'Fredericka the Great', ;
+h2{
+    font-family: 'Fredericka the Great' ;
     color: grey;
+    font-size: 20px;
 }
 h3{
-    font-family: 'Fredericka the Great', ;
+    font-family: 'Trade Winds' ;
+    font-size: 15px;
+    
 }
 
-.name{
-    color: khaki;
-
+p{
+    color: dimgray;
 }
-.intro{
-    color: lightslategrey;
+
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.top-banner{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    color: white;
+    font-weight: 700;
 }
