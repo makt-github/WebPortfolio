@@ -1,0 +1,21 @@
+body{
+    background-image: url("Images/web-back.jpg") no-reapet top center;
+    border: 1px solid red;
+    height: 500px;
+}
+
+h1{
+    font-family: 'Fredericka the Great', ;
+    color: grey;
+}
+h3{
+    font-family: 'Fredericka the Great', ;
+}
+
+.name{
+    color: khaki;
+
+}
+.intro{
+    color: lightslategrey;
+}
