@@ -45,6 +45,11 @@ p{
     width: 100%;
 }
 
+img:hover{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 100px;
+    
+}
 .top-banner{
     background-image: url("Images/top-banner.png");
     background-repeat: no-repeat;
